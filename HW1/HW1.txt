@@ -1,0 +1,95 @@
+In this assignment, you will be following the instructions in p1.py and p2.cpp.
+We strongly recommend using Emacs for editing the files as it is among the best
+editors for working with programs.  
+
+(gedit and vim are  other editors that will work, but then pay more attention
+to indentation and syntax).
+
+Submit your solutions on ctools under Assignments. Remember to backup your files as instructed in README.txt in the parent folder.
+
+Here is what you need to do:
+
+Python program: 4 points
+------------------------
+
+1.  Look at p1_sample.py. Run it. as follows:
+% python p1_sample.py
+
+Understand what it does and how it works.
+
+(No submission required for this step)
+
+2. Create a program p1.py that does the following:
+
+Write statements that do the following steps:
+
+a. Give a prompt: "Please enter your last name: "
+b. Read in the lastname
+c. Give a prompt: "Please enter your first name: "
+d. Read in the firstname
+e. Present an output as follows:
+f. "Your full name is <firstname> <lastname>"
+
+
+Add in a comment near the top of the program that states your name, e.g.,
+# My Name: Atul Prakash
+
+Also, modify the existing comment so that it accurately reflects
+what the program does. 
+
+Take a screenshot of the working program and save it in the current folder.
+You can take a screenshot from within Mint by doing Menu -> Accessories -> Take Screenshot. When it asks for the filename, give it the name p1.png. For
+folder, instead of desktop, you can save it to me->Homeworks->HW1.
+
+Task 2: Do a backup of your work to ITD: 2 points
+--------------------------------------------------
+
+Follow the instructions in Homeworks/README.txt. Take a screenshot of
+the result from dobackup.sh script to demonstrate that you did a
+successful backup. Save the screenshot to backup.png in HW1 folder.
+
+C++ program (4 points):
+-----------------------
+
+1. Look at p1_sample.cpp. Compile and run it as follows:
+
+% g++ -g -Wall p1_sample.cpp -o p1
+% p1
+
+This pretty much does the same thing as the Python program.
+
+2. Create a C++ program p1_sample.cpp that does the same thing as p1.py.
+Follow p1_sample.cpp for the structure. p1_sample.cpp shows you how
+to read something from the user and print it out. 
+
+Add in a comment in the program that states your name, e.g.,
+// My Name: Atul Prakash
+
+Also, modify the comment above main() so that it reflects what
+the program does.
+
+What to submit:
+
+You will be submitting a single zip file called HW1.zip of HW1 folder
+containing at least the following:
+
+a. p1.py
+b. p2.cpp
+c. screenshots showing an interaction with p1.py and p2.cpp (p1).   
+
+To zip the folder HW1, do as follows from the Homeworks directory:
+
+% zip -r HW1.zip HW1
+
+You can then upload the file using the browser to Ctools.
+
+Also immediately backup your final solution to ITD storage using the
+dobackup.sh script in the Homeworks folder. This can serve to document
+the timestamp when you completed the work, in case something goes wrong
+with Ctools submission.
+
+
+
+
+
+
