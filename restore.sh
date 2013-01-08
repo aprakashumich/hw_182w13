@@ -15,9 +15,9 @@ echo $uniquename
 firstchar=${uniquename:0:1}
 secondchar=${uniquename:1:1}
 
-#git remote add backupserver ssh://$uniquename@login.itd.umich.edu/afs/umich.edu/user/$firstchar/$secondchar/$uniquename/eecs182HW
+backupserver="ssh://$uniquename@login.itd.umich.edu/afs/umich.edu/user/$firstchar/$secondchar/$uniquename/eecs182HW"
 
-git pull backupserver master
+git pull $backupserver master
 
 
 
