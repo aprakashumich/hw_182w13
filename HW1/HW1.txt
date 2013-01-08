@@ -38,7 +38,7 @@ Also, modify the existing comment so that it accurately reflects
 what the program does. 
 
 Take a screenshot of the working program and save it in the current folder.
-You can take a screenshot from within Mint by doing Menu -> Accessories -> Take Screenshot. When it asks for the filename, give it the name p1.png. For
+You can take a screenshot from within Mint by doing Menu -> Accessories -> Take Screenshot. When it asks for the filename, give it the name screenshot1.png. For
 folder, instead of desktop, you can save it to me->Homeworks->HW1.
 
 Task 2: Do a backup of your work to ITD: 2 points
@@ -51,22 +51,27 @@ successful backup. Save the screenshot to backup.png in HW1 folder.
 C++ program (4 points):
 -----------------------
 
-1. Look at p1_sample.cpp. Compile and run it as follows:
+1. Look at p2_sample.cpp. Compile and run it as follows:
 
-% g++ -g -Wall p1_sample.cpp -o p1
-% p1
+% g++ -g -Wall p2_sample.cpp -o p2.out
+% p2.out
 
-This pretty much does the same thing as the Python program.
+This should pretty much do the same thing as the Python program. There
+is no need to submit anything for this part. Just try to understand the
+program and what it is doing.
 
-2. Create a C++ program p1_sample.cpp that does the same thing as p1.py.
-Follow p1_sample.cpp for the structure. p1_sample.cpp shows you how
-to read something from the user and print it out. 
+2. Create a C++ program p2.cpp that does the same thing as p1.py.
+Follow p2_sample.cpp for the structure. 
 
-Add in a comment in the program that states your name, e.g.,
-// My Name: Atul Prakash
+Add in a comment in the program that states your name near the
+top of the file, e.g., 
+// My Name: Your name
 
-Also, modify the comment above main() so that it reflects what
-the program does.
+Also, write a comment above main() that states what your program does. See
+p2_sample.cpp for an example comment.
+
+Run p2.cpp by compiling it and executing it. When it runs successfully, take
+a screenshot and save it in HW1 folder under the name screenshot2.png.
 
 What to submit:
 
@@ -75,19 +80,23 @@ containing at least the following:
 
 a. p1.py
 b. p2.cpp
-c. screenshots showing an interaction with p1.py and p2.cpp (p1).   
+c. Three screenshots showing an interaction with p1.py, a successful backup, 
+and an interactive session with p2.cpp.
 
 To zip the folder HW1, do as follows from the Homeworks directory:
 
 % zip -r HW1.zip HW1
 
-You can then upload the file using the browser to Ctools.
+You can then upload the HW1.zip  using the browser to Ctools.
 
 Also immediately backup your final solution to ITD storage using the
 dobackup.sh script in the Homeworks folder. This can serve to document
 the timestamp when you completed the work, in case something goes wrong
 with Ctools submission.
 
+Since this is the first homework, don't hestitate to ask us for help. If
+you miss the deadline, don't worry. We will be flexible on this one as long
+as you are trying.
 
 
 
