@@ -8,8 +8,8 @@ Do the following one time:
 This creates a version-controlled backup repository in your ITD storage space. 
 It will maintain both old and current versions of your system as long as you remember to run the next command to backup your files often.
 
-Note: The IAs/TAs and Professor also have read access to your homework 
-repository. That way, we can more easily help you when needed as well
+Note: The IAs/TAs and Professor will also have read/write access to your homework 
+repository.  That way, we can more easily help you when needed as well
 verify that you have done the work on time, in case something goes wrong
 with Ctools submission. (At some point, this may replace the CTools 
 submission system in the class. For now, submit your final solutions to Ctools.)
