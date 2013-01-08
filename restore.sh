@@ -5,7 +5,7 @@
 EXPECTED_ARGS=1
 if [ $# -ne $EXPECTED_ARGS ]
 then
-    echo "Usage: `basename $0` your_uniquename"
+    echo "Usage: bash `basename $0` your_uniquename"
     exit 100
 fi
 
@@ -15,7 +15,7 @@ echo $uniquename
 firstchar=${uniquename:0:1}
 secondchar=${uniquename:1:1}
 
-git remote add backupserver ssh://$uniquename@login.itd.umich.edu/afs/umich.edu/user/$firstchar/$secondchar/$uniquename/eecs182HW
+#git remote add backupserver ssh://$uniquename@login.itd.umich.edu/afs/umich.edu/user/$firstchar/$secondchar/$uniquename/eecs182HW
 
 git pull backupserver master
 
