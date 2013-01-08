@@ -1,11 +1,13 @@
-In this assignment, you will be following the instructions in p1.py and p2.cpp.
-We strongly recommend using Emacs for editing the files as it is among the best
-editors for working with programs.  
+For this assignment, we recommend using Emacs for editing the files as it is among the best
+editors for working with both Python and C++ programs.  To launch emacs, do:
 
-(gedit and vim are  other editors that will work, but then pay more attention
+% emacs filename
+
+(gedit and vim are  other editors that will work in Mint, but then pay more attention
 to indentation and syntax).
 
-Submit your solutions on ctools under Assignments. Remember to backup your files as instructed in README.txt in the parent folder.
+Submit your solutions on ctools under Assignments. Remember to backup your files 
+as instructed in README.txt in the parent folder.
 
 Here is what you need to do:
 
@@ -19,7 +21,7 @@ Understand what it does and how it works.
 
 (No submission required for this step)
 
-2. Create a program p1.py that does the following:
+2. Using an editor (emacs), create a program p1.py that does the following:
 
 Write statements that do the following steps:
 
@@ -94,9 +96,8 @@ dobackup.sh script in the Homeworks folder. This can serve to document
 the timestamp when you completed the work, in case something goes wrong
 with Ctools submission.
 
-Since this is the first homework, don't hestitate to ask us for help. If
-you miss the deadline, don't worry. We will be flexible on this one as long
-as you are trying.
+Since this is the first homework, don't hestitate to ask us for help. We recommend
+completing it by end of next week. Deadline is posted it in Ctools.
 
 
 
