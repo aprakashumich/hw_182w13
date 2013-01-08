@@ -3,7 +3,7 @@ This is the folder where you should keep your homework code.
 Do the following one time:
 --------------------------
 
-% bash createbackup.sh YOUR_UNIQUENAME
+% createbackup.sh YOUR_UNIQUENAME
 
 This creates a version-controlled backup repository in your ITD storage space. 
 It will maintain both old and current versions of your system as long as you remember to run the next command to backup your files often.
@@ -11,7 +11,7 @@ It will maintain both old and current versions of your system as long as you rem
 Doing a backup: Do this frequently. Even every hour or a few minutes.
 --------------------------------------------------------------------
 
-% bash dobackup.sh YOUR_UNIQUENAME
+% dobackup.sh YOUR_UNIQUENAME
 
 This backups your edits to ITD repository in your account. RUN THIS 
 FREQUENTLY. OTHERWISE, NOTHING IS BACKED UP!
@@ -22,7 +22,7 @@ corruption, or loss of your laptop), we can help you restore them.
 Restoring files
 -----------------
 
-% bash dorestore.sh YOUR_UNIQUENAME
+% dorestore.sh YOUR_UNIQUENAME
 
 should restore any missing files from the latest backup. This should be safe 
 to run. It will simply tell you that your files are up to date if nothing

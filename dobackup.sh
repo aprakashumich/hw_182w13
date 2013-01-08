@@ -4,7 +4,7 @@
 EXPECTED_ARGS=1
 if [ $# -ne $EXPECTED_ARGS ]
 then
-    echo "Usage: bash `basename $0` your_uniquename"
+    echo "Usage: `basename $0` your_uniquename"
     exit 100
 fi
 
