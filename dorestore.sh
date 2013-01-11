@@ -18,8 +18,7 @@ secondchar=${uniquename:1:1}
 
 git pull backupserver master
 
-
-
+git checkout .
 
 
 
