@@ -76,6 +76,7 @@ Run p2.cpp by compiling it and executing it. When it runs successfully, take
 a screenshot and save it in HW1 folder under the name screenshot2.png.
 
 What to submit:
+---------------
 
 You will be submitting a single zip file called HW1.zip of HW1 folder
 containing at least the following:
@@ -83,7 +84,9 @@ containing at least the following:
 a. p1.py
 b. p2.cpp
 c. Three screenshots showing an interaction with p1.py, a successful backup, 
-and an interactive session with p2.cpp.
+and an interactive session with p2.cpp (use .png or .pdf format).
+d. A file DONE, which can be empty. It tells us that your assignment is
+ready to grade.
 
 To zip the folder HW1, do as follows from the Homeworks directory:
 
@@ -96,8 +99,8 @@ dobackup.sh script in the Homeworks folder. This can serve to document
 the timestamp when you completed the work, in case something goes wrong
 with Ctools submission.
 
-Since this is the first homework, don't hestitate to ask us for help. We recommend
-completing it by end of next week. Deadline is posted it in Ctools.
+Since this is the first homework, don't hestitate to ask us for help. 
+Deadline is posted it in Ctools.
 
 
 
