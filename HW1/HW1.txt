@@ -58,7 +58,10 @@ C++ program (4 points):
 % g++ -g -Wall p2_sample.cpp -o p2.out
 % p2.out
 
-This should pretty much do the same thing as the Python program. There
+You may get compilation errors. Look at them carefully and try fixing them (Hint: the direction
+of arrows in one of cout statements is wrong).
+
+After you fix the errors, this should pretty much do the same thing as the Python program. There
 is no need to submit anything for this part. Just try to understand the
 program and what it is doing.
 
