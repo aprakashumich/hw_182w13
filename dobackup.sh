@@ -13,13 +13,13 @@ uniquename=$1
 firstchar=${uniquename:0:1}
 secondchar=${uniquename:1:1}
 
-#backupserver="ssh://$uniquename@login.itd.umich.edu/afs/umich.edu/user/$firstchar/$secondchar/$uniquename/eecs182HW"
+backupserver="ssh://$uniquename@login.itd.umich.edu/afs/umich.edu/user/$firstchar/$secondchar/$uniquename/eecs182HW"
 
 
 
 git add .
 git commit -m "updates"
-git push backupserver master
+git push $backupserver master
 
 
 

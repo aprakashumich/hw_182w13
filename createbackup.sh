@@ -18,8 +18,7 @@ ssh $uniquename@login.itd.umich.edu "mkdir eecs182HW;fs setacl eecs182HW $unique
 firstchar=${uniquename:0:1}
 secondchar=${uniquename:1:1}
 
-git remote add backupserver ssh://$uniquename@login.itd.umich.edu/afs/umich.edu/user/$firstchar/$secondchar/$uniquename/eecs182HW
-
+#git remote add backupserver ssh://$uniquename@login.itd.umich.edu/afs/umich.edu/user/$firstchar/$secondchar/$uniquename/eecs182HW
 
 echo "You can ignore already exists fatal errors from this script" 
 
