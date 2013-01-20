@@ -53,6 +53,41 @@ Avoid doing anything in the .git folder.
 Troubleshooting
 ---------------
 
+Error at dobackup
+-----------------
+
+If you get an error "non-fast-forward updates were rejected", 
+when running dobackup.sh, you can try doing the following:
+
+% dorestore.sh {UNIQUENAME}
+
+Replace {UNIQUENAME} with your uniquname
+
+Then retry dobackup.sh
+
+Extra lines in your file
+-----------------------
+
+You may occasionally see something like the following in your files:
+
+<<<<<<< HEAD
+
+Some stuff 
+=======
+
+Some other stuff
+>>>>>>> 56b8eb5c57f5f470eca5b789d14d4ac1124c7fb7
+
+This occurred because there was a merging conflict. You have made some
+local changes to a file that conflict with changes made elsewhere. Simply
+fix the file and back it up again.
+
+
+
+
+Total mess up
+--------------
+
 If something gets totally messed up, you can start from scratch as follows. This
 should be done as a last resort and hopefully rarely.
 
@@ -94,8 +129,6 @@ STEP 7: Transfer your files from the old Homeworks, if needed.
 You will need to transfer files from Homeworks.old created at Step 2 to the new Homeworks folder. You can use the File Browser to do this.
 
  
-
-
 
 
 
