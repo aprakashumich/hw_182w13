@@ -5,6 +5,8 @@ Do this initially and whenever you want to fetch updated homework files
 
 % pullhwupdates.sh
 
+If your get network or STL errors, make sure you can browse the web from within Mint (it has the Chrome and Firefox browser). Also, you may want to retry after turning off any anti-virus software on your machine. We ran into one instance where a student's anti-virus software was disrupting the network connection.
+
 Do the following one time:
 --------------------------
 
