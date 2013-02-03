@@ -14,6 +14,11 @@ using namespace std;
 
 int main() 
 {
+    // Run the tests first
+    test_computegrade();
+
+    // Then write the program
+
     return 0;
 }
 
