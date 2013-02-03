@@ -127,5 +127,5 @@ void test_computegrade()
 
 int readscore()
 {
-    return "";
+    return 0;
 }
