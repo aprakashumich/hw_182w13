@@ -1,0 +1,2 @@
+Please enter the first number:	Please enter the second number:	Please enter the third number:	The average of the three numbers is:	3.6
+The median of the three numbers is:	4
