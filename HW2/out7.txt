@@ -1,0 +1,2 @@
+Please enter the number of days: Input:	500 days
+Output:	1 year, 19 weeks, and 2 days
