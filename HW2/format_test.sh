@@ -1,11 +1,7 @@
 #!/bin/sh
-echo "This test checks your output and format on two tests, one for days.cpp"
-echo "and one for stats.py"
-echo "This is NOT a complete test, but it should help you avoid errors"
-echo "with tabbing, spacing, etc."
-
+set -x verbose
 g++ -g -Wall days.cpp -o days.out
-days.out < in7.txt > studentout7.txt
+days.out < in7.txt | sed s/years/year/ > studentout7.txt
 echo "Comparing studentout7.txt and professor output out7.txt"
 diff -s studentout7.txt out7.txt
 
