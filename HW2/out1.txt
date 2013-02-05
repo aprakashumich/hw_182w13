@@ -1,0 +1,2 @@
+Please enter the number of days: Input:	0 days
+Output:	0 year, 0 weeks, and 0 days
