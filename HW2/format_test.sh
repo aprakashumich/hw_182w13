@@ -7,7 +7,7 @@ echo ""
 echo "comparison ignores plurals and singular words (e.g., day vs. days)"
 echo "Comparing studentout7.txt and professor output out7_s.txt"
 diff -s studentout7.txt out7_s.txt
-cmpstudentout7.txt out7_s.txt
+cmp studentout7.txt out7_s.txt
 
 echo ""
 echo "Another test. Input file: in1.txt, reference output file: out1.txt"
